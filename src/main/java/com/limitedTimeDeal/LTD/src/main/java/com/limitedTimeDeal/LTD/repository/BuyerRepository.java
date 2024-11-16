@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.limitedTimeDeal.LTD.model.Buyer;
 
 @Repository
-public interface UserRepository extends JpaRepository<Buyer, String> {
+public interface BuyerRepository extends JpaRepository<Buyer, String> {
 
 }
